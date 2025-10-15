@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.golden.urdu.speeches",
+      "sha256_cert_fingerprints": [
+        "6A:DF:89:22:43:B1:9F:55:CE:1A:12:3F:AE:97:CC:22:9D:FE:11:9B:A7:3C:77:01:6A:E1:B0:10:2F:99:AB:CD"
+      ]
+    }
+  }
+]
