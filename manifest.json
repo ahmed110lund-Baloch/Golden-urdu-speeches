@@ -4,20 +4,21 @@
   "description": "Golden Urdu Speeches — بچوں اور بڑوں کے لیے بہترین تعلیمی اور ترغیبی تقاریر کا مجموعہ۔",
   "lang": "ur",
   "dir": "rtl",
-  "start_url": "/index.html",
-  "scope": "/",
+  "start_url": "./index.html?source=pwa",
+  "scope": "./",
   "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
   "orientation": "portrait",
   "background_color": "#ffffff",
   "theme_color": "#f9e2a6",
   "icons": [
     {
-      "src": "/icons/icon-192x192.png",
+      "src": "icon-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/icons/icon-512x512.png",
+      "src": "icon-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
@@ -27,16 +28,16 @@
     {
       "name": "بچوں کے لیے تقاریر",
       "short_name": "بچوں کی تقاریر",
-      "url": "/speeches/kids.html",
-      "icons": [{ "src": "/icons/icon-192x192.png", "sizes": "192x192" }]
+      "url": "./speech1.html",
+      "icons": [{ "src": "icon-192x192.png", "sizes": "192x192", "type": "image/png" }]
     },
     {
-      "name": "موٹیویشنل تقاریر",
+      "name": "حوصلہ افزائی تقاریر",
       "short_name": "حوصلہ افزائی",
-      "url": "/speeches/motivational.html",
-      "icons": [{ "src": "/icons/icon-192x192.png", "sizes": "192x192" }]
+      "url": "./speech10.html",
+      "icons": [{ "src": "icon-192x192.png", "sizes": "192x192", "type": "image/png" }]
     }
   ],
-  "id": "com.golden.urdu.speeches",
+  "id": "golden.urdu.speeches",
   "prefer_related_applications": false
 }
