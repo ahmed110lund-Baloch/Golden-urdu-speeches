@@ -11,33 +11,41 @@
   "orientation": "portrait",
   "background_color": "#ffffff",
   "theme_color": "#f9e2a6",
+
   "icons": [
     {
-      "src": "icon-192x192.png",
+      "src": "icon/icon-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "icon-512x512.png",
+      "src": "icon/icon-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
   ],
+
   "categories": ["education", "books", "motivation"],
+
   "shortcuts": [
     {
       "name": "بچوں کے لیے تقاریر",
       "short_name": "بچوں کی تقاریر",
       "url": "./speech1.html",
-      "icons": [{ "src": "icon-192x192.png", "sizes": "192x192", "type": "image/png" }]
+      "icons": [
+        { "src": "icon/icon-192x192.png", "sizes": "192x192", "type": "image/png" }
+      ]
     },
     {
       "name": "حوصلہ افزائی تقاریر",
       "short_name": "حوصلہ افزائی",
       "url": "./speech10.html",
-      "icons": [{ "src": "icon-192x192.png", "sizes": "192x192", "type": "image/png" }]
+      "icons": [
+        { "src": "icon/icon-192x192.png", "sizes": "192x192", "type": "image/png" }
+      ]
     }
   ],
+
   "id": "golden.urdu.speeches",
   "prefer_related_applications": false
 }
